@@ -9,6 +9,6 @@ try:
     print("", end="")
 print()
 return num
-except indexError:
+except IndexError:
     print()
     return num
